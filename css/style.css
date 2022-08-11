@@ -253,7 +253,7 @@ body {
 
 .discount {
   background-color: #111111;
-  padding-top: 112px;
+  padding: 112px 0px;
 }
 
 .discount__body h1 {
@@ -321,9 +321,8 @@ body {
 }
 
 .discount button {
+  margin: 64px auto 0px;
   display: block;
-  margin: 0 auto;
-  margin: 64px 0px 112px 0px;
   background: #fcb500;
   border-radius: 7px;
   width: 256px;
