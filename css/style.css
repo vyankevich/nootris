@@ -226,8 +226,7 @@ body {
 }
 
 .nootris__activate .ginger__img {
-  width: 496px;
-  height: 408.83px;
+  max-width: 496px;
   position: absolute;
   z-index: 1;
   left: 820px;
@@ -235,8 +234,7 @@ body {
 }
 
 .nootris__activate .nootris__img {
-  width: 224px;
-  height: 635.29px;
+  max-width: 224px;
   position: absolute;
   z-index: 2;
   top: -50px;
@@ -245,8 +243,7 @@ body {
 
 .nootris__activate .lemon__img {
   z-index: 3;
-  width: 533px;
-  height: 462.94px;
+  max-width: 533px;
   position: absolute;
   top: 325px;
   left: 600px;
