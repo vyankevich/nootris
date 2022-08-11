@@ -175,6 +175,22 @@ body {
   color: #ffffff;
 }
 
+.header__body a {
+  color: white;
+  text-decoration: none;
+}
+
+.header .cart__counter {
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  font-size: 12px;
+  line-height: 16px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: #fcb500;
+}
+
 .header__burger {
   display: none;
 }
@@ -200,7 +216,7 @@ body {
   z-index: 10;
 }
 
-.nootris__activate .nootris__advangtages {
+.nootris__activate .nootris__subtitle {
   padding-top: 24px;
   font-size: 24px;
   line-height: 28px;
@@ -269,6 +285,7 @@ body {
 }
 
 .discount__body-price {
+  padding-top: 85px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -329,4 +346,5 @@ body {
   height: 56px;
   font-size: 18px;
   line-height: 21px;
+  cursor: pointer;
 }
