@@ -119,6 +119,9 @@ body {
 .header {
     background-color: #111111;
     &__body {
+        .phone__icon {
+            display: none;
+        }
         display: flex;
         align-items: center;
         justify-content: space-between;

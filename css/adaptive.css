@@ -1,3 +1,82 @@
+@media only screen and (max-width: 1438px) {
+  .container {
+    width: 1140px;
+  }
+  .header__body {
+    height: 70px;
+  }
+  .header__body li {
+    margin: 0px 10px;
+  }
+  .header__body li a {
+    font-size: 18px;
+  }
+  .header__body a {
+    font-size: 12px;
+  }
+  .header__logo img {
+    max-width: 80%;
+  }
+  .nootris__activate h1 {
+    font-size: 100px;
+    line-height: 100px;
+  }
+  .nootris__activate .nootris__subtitle {
+    padding-top: 15px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .nootris__activate .ginger__img {
+    left: 545px;
+    top: 80px;
+    max-width: 40%;
+  }
+  .nootris__activate .nootris__img {
+    top: -40px;
+    left: 690px;
+    max-width: 16%;
+  }
+  .nootris__activate .lemon__img {
+    top: 255px;
+    left: 378px;
+    max-width: 37%;
+  }
+  .nootris h2 {
+    padding-top: 100px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 33px;
+    color: #000000;
+  }
+  .nootris__text {
+    padding-top: 10px;
+    font-size: 15px;
+    line-height: 18px;
+  }
+  .discount {
+    padding: 90px 0px;
+  }
+  .discount .discount__body h1 {
+    font-size: 38px;
+    line-height: 47px;
+  }
+  .discount .discount__body-price {
+    padding-top: 60px;
+  }
+  .discount .discount__body-price .price {
+    font-size: 38px;
+  }
+  .discount .discount__body-offer div {
+    padding-top: 55px;
+  }
+  .discount .discount__body-offer div .offer__text-big {
+    font-size: 26px;
+  }
+  .discount .discount__body-offer div img {
+    max-width: 70%;
+  }
+}
+
 @media only screen and (max-width: 1199px) {
   .container {
     width: 960px;
@@ -12,7 +91,7 @@
     font-size: 15px;
   }
   .header__body a {
-    font-size: 15px;
+    font-size: 12px;
   }
   .header__logo img {
     max-width: 80%;
@@ -74,5 +153,272 @@
   }
   .discount .discount__body-offer div img {
     max-width: 70%;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .container {
+    width: 720px;
+  }
+  .header__body {
+    height: 60px;
+  }
+  .header__body .phone__icon {
+    display: block;
+    max-width: 3%;
+  }
+  .header__body .phone__number {
+    display: none;
+  }
+  .header__body li {
+    margin: 0px 10px;
+  }
+  .header__body li a {
+    font-size: 12px;
+  }
+  .header__body a {
+    font-size: 12px;
+  }
+  .header__logo img {
+    max-width: 70%;
+  }
+  .nootris {
+    padding: 54px 0px;
+  }
+  .nootris__activate h1 {
+    font-size: 70px;
+    line-height: 80px;
+  }
+  .nootris__activate .nootris__subtitle {
+    padding-top: 10px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .nootris__activate .ginger__img {
+    left: 370px;
+    top: 80px;
+    max-width: 44%;
+  }
+  .nootris__activate .nootris__img {
+    top: -25px;
+    left: 490px;
+  }
+  .nootris__activate .lemon__img {
+    top: 185px;
+    left: 260px;
+  }
+  .nootris h2 {
+    padding-top: 70px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 33px;
+    color: #000000;
+  }
+  .nootris__text {
+    padding-top: 10px;
+    font-size: 13px;
+    line-height: 18px;
+  }
+  .discount {
+    padding: 90px 0px;
+  }
+  .discount .discount__body h1 {
+    font-size: 38px;
+    line-height: 47px;
+  }
+  .discount .discount__body-price {
+    padding-top: 60px;
+  }
+  .discount .discount__body-price .price {
+    font-size: 38px;
+  }
+  .discount .discount__body-offer div {
+    padding-top: 55px;
+  }
+  .discount .discount__body-offer div .offer__text-big {
+    font-size: 26px;
+  }
+  .discount .discount__body-offer div img {
+    max-width: 70%;
+  }
+  .discount button {
+    height: 45px;
+    width: 210px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .container {
+    width: 540px;
+  }
+  body.lock {
+    overflow: hidden;
+  }
+  .header__burger {
+    display: block;
+    width: 30px;
+    height: 20px;
+    position: relative;
+    z-index: 15;
+    right: -70px;
+  }
+  .header__burger span {
+    position: absolute;
+    background-color: white;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    top: 9px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  .header__burger:before, .header__burger:after {
+    content: "";
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  .header__burger:before {
+    top: 0px;
+  }
+  .header__burger:after {
+    bottom: 0px;
+  }
+  .header__burger.active:before {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    top: 9px;
+  }
+  .header__burger.active:after {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    bottom: 9px;
+  }
+  .header__burger.active span {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  .header__menu {
+    z-index: 15;
+    position: fixed;
+    top: -100%;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(5px);
+    padding: 80px 10px 20px 10px;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+  }
+  .header__menu.active {
+    left: 0px;
+    top: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header__body {
+    height: 60px;
+  }
+  .header__body .phone__icon {
+    display: block;
+    max-width: 5%;
+    margin-left: auto;
+  }
+  .header__body .phone__number {
+    display: none;
+  }
+  .header__body li {
+    margin: 0px 10px;
+  }
+  .header__body li a {
+    font-size: 17px;
+    color: black;
+  }
+  .header__body a {
+    font-size: 12px;
+  }
+  .header__body .header__cart {
+    margin-left: 20px;
+  }
+  .header__logo img {
+    max-width: 70%;
+    margin-right: auto;
+  }
+  .nootris {
+    padding: 54px 0px;
+  }
+  .nootris__activate h1 {
+    font-size: 70px;
+    line-height: 80px;
+  }
+  .nootris__activate .nootris__subtitle {
+    padding-top: 10px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .nootris__activate .ginger__img {
+    left: 370px;
+    top: 80px;
+    max-width: 44%;
+  }
+  .nootris__activate .nootris__img {
+    top: -25px;
+    left: 490px;
+  }
+  .nootris__activate .lemon__img {
+    top: 185px;
+    left: 260px;
+  }
+  .nootris h2 {
+    padding-top: 70px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 33px;
+    color: #000000;
+  }
+  .nootris__text {
+    padding-top: 10px;
+    font-size: 13px;
+    line-height: 18px;
+  }
+  .discount {
+    padding: 90px 0px;
+  }
+  .discount .discount__body h1 {
+    font-size: 38px;
+    line-height: 47px;
+  }
+  .discount .discount__body-price {
+    padding-top: 60px;
+  }
+  .discount .discount__body-price .price {
+    font-size: 38px;
+  }
+  .discount .discount__body-offer div {
+    padding-top: 55px;
+  }
+  .discount .discount__body-offer div .offer__text-big {
+    font-size: 26px;
+  }
+  .discount .discount__body-offer div img {
+    max-width: 70%;
+  }
+  .discount button {
+    height: 45px;
+    width: 210px;
   }
 }

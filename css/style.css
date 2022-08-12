@@ -139,6 +139,10 @@ body {
   height: 80px;
 }
 
+.header__body .phone__icon {
+  display: none;
+}
+
 .header__body img {
   max-width: 100%;
 }
