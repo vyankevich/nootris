@@ -1,4 +1,4 @@
 # nootris
-SwiperJS
-SASS
+SwiperJS,
+SASS,
 not finall ver
