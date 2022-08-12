@@ -8,9 +8,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
     <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   </head>
 </html>
@@ -81,31 +82,70 @@
                             <div class="price">690₽</div>
                         </div>
                         <div class="discount__body-offer">
-                            <div>
-                                <img src="./img/ginger_small.png" alt="ginger small img">
-                                <div class="offer__text">Содержит <br>
-                                    <span>имбирь</span>
+                            <div class="offer__big">
+                                <div>
+                                    <img src="./img/ginger_small.png" alt="ginger small img">
+                                    <div class="offer__text">Содержит <br>
+                                        <span>имбирь</span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <img src="./img/nootris_small.png" alt="nootris small img">
+                                    <div class="offer__text offer__text-big">+ Бесплатная доставка <br>
+                                         <span>Специальная цена</span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <img src="./img/vorus_small.png" alt="lemon small img">
+                                    <div class="offer__text">Нейтрализует<br>
+                                         <span>вирусы</span>
+                                    </div>
                                 </div>
                             </div>
-                            <div>
-                                <img src="./img/nootris_small.png" alt="nootris small img">
-                                <div class="offer__text offer__text-big">+ Бесплатная доставка <br>
-                                     <span>Специальная цена</span>
+                            <div class="items-slider swiper">
+                                <div class="items-slider__wrapper swiper-wrapper">
+                                    <div class="items-slider__slide swiper-slide">
+                                        <div class="item1">
+                                            <div>
+                                                <img src="./img/nootris_small.png" alt="nootris small img">
+                                                <div class="offer__text offer__text-big">+ Бесплатная доставка <br>
+                                                     <span>Специальная цена</span>
+                                                </div>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                    <div class="items-slider__slide swiper-slide">
+                                        <div class="item2">
+                                            <div>
+                                                <img src="./img/ginger_small.png" alt="ginger small img">
+                                                <div class="offer__text">Содержит <br>
+                                                    <span>имбирь</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="items-slider__slide swiper-slide">
+                                        <div class="item3">
+                                            <div>
+                                                <img src="./img/vorus_small.png" alt="lemon small img">
+                                                <div class="offer__text">Нейтрализует<br>
+                                                     <span>вирусы</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                            <div>
-                                <img src="./img/vorus_small.png" alt="lemon small img">
-                                <div class="offer__text">Нейтрализует<br>
-                                     <span>вирусы</span>
-                                </div>
+                                <div class="swiper-pagination"></div>
                             </div>
                         </div>
+                        
                         <button>Оформить заказ!</button>
                     </div>
                 </div>
             </div>
         </div>
     </main>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="./js/script.js"></script>
 </body>

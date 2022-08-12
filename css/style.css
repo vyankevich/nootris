@@ -309,7 +309,11 @@ body {
   padding-right: 32px;
 }
 
-.discount .discount__body-offer {
+.discount .discount__body-offer .swiper {
+  display: none;
+}
+
+.discount .discount__body-offer .offer__big {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -320,7 +324,7 @@ body {
       justify-content: space-around;
 }
 
-.discount .discount__body-offer div {
+.discount .discount__body-offer .offer__big div {
   padding-top: 78px;
   font-size: 18px;
   line-height: 21px;
@@ -328,13 +332,13 @@ body {
   color: #ffffff;
 }
 
-.discount .discount__body-offer div .offer__text-big {
+.discount .discount__body-offer .offer__big div .offer__text-big {
   padding-top: 45px;
   font-size: 36px;
   line-height: 43px;
 }
 
-.discount .discount__body-offer div .offer__text span {
+.discount .discount__body-offer .offer__big div .offer__text span {
   color: #fcb500;
 }
 

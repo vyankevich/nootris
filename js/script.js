@@ -4,3 +4,20 @@ $(document).ready(function () {
     $(".body").toggleClass("lock");
   });
 });
+
+new Swiper(".items-slider ", {
+  spaceBetween: 10,
+  loop: false,
+  autoplay: {
+    delay: 5000,
+  },
+  pagination: {
+    el: ".swiper-pagination",
+  },
+  breakpoints: {
+    500: {
+      slidesPerView: 1,
+      spaceBetween: 10,
+    },
+  },
+});

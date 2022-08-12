@@ -269,23 +269,28 @@ body {
     }
 
     .discount__body-offer {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        div {
-            padding-top: 78px;
-            font-size: 18px;
-            line-height: 21px;
-            text-align: center;
-            color: #ffffff;
-            .offer__text {
-                &-big {
-                    padding-top: 45px;
-                    font-size: 36px;
-                    line-height: 43px;
-                }
-                span {
-                    color: #fcb500;
+        .swiper {
+            display: none;
+        }
+        .offer__big {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            div {
+                padding-top: 78px;
+                font-size: 18px;
+                line-height: 21px;
+                text-align: center;
+                color: #ffffff;
+                .offer__text {
+                    &-big {
+                        padding-top: 45px;
+                        font-size: 36px;
+                        line-height: 43px;
+                    }
+                    span {
+                        color: #fcb500;
+                    }
                 }
             }
         }
