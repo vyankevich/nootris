@@ -1,2 +1,3 @@
 # nootris
- 
+SwiperJS
+SASS
